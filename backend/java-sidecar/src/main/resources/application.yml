@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: openscience-java-sidecar
+
+server:
+  address: 127.0.0.1
+  port: ${OPENSCIENCE_JAVA_SIDECAR_PORT:8088}
